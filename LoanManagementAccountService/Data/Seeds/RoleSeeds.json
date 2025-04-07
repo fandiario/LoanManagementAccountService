@@ -1,0 +1,14 @@
+﻿[
+  {
+    "id": 1,
+    "name": "administrator"
+  },
+  {
+    "id": 2,
+    "name": "kepala cabang"
+  },
+  {
+    "id": 3,
+    "name": "customer service"
+  }
+]

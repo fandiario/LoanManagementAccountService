@@ -1,0 +1,21 @@
+﻿[
+  {
+    "username": "admin1",
+    "email": "admin1@email.com",
+    "password": "admin123",
+    "idrole": 1
+  },
+  {
+    "username": "kc1",
+    "email": "admin1@email.com",
+    "password": "kc123",
+    "idrole": 2
+  },
+  {
+    "id": 3,
+    "username": "cs1",
+    "email": "cs1@email.com",
+    "password": "cs123",
+    "idrole": 3
+  }
+]
