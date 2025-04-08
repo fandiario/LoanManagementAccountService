@@ -12,7 +12,7 @@ public static class IdentitySeeder
 
         if (!userManager.Users.Any())
         {
-            var json = File.ReadAllText("Seeds/AccountSeeds.json");
+            var json = File.ReadAllText("../Data/Seeds/AccountSeeds.json");
             var seedUsers = JsonSerializer.Deserialize<List<AccountSeedsModel>>(json);
 
             foreach (var seedUser in seedUsers)

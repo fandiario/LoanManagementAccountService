@@ -65,8 +65,8 @@ if (app.Environment.IsDevelopment())
     app.MapOpenApi();
 }
 
-await IdentitySeeder.SeedUsersAsync(app);
-await RoleSeeder.SeedRolesAsync(app);
+//await IdentitySeeder.SeedUsersAsync(app);
+//await RoleSeeder.SeedRolesAsync(app);
 
 app.UseSwagger();
 
