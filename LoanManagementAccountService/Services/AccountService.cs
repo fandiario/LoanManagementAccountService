@@ -22,10 +22,11 @@ namespace LoanManagementAccountService.Services
         public async Task<(bool Success, string Message)> RegisterUserAsync(RegisterModel account)
         {
             var user = new RegisterModel { Username = account.Username, Email = account.Email , Password = account.Password, IdRole = account.IdRole };
+            //var result = await _accountRepository.RegisterUserAsync(user);
             var result = await _accountRepository.RegisterUserAsync(user);
 
             if (!result)
-                return (false, "User registration failed");
+            return (false, "User registration failed");
 
             return (true, "User registered successfully!");
         }
